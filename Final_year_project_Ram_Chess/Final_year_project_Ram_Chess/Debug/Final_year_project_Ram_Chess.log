@@ -1,0 +1,11 @@
+﻿  Ai.cpp
+  AiPlayer.cpp
+  Chessboard.cpp
+  Coord.cpp
+  Main.cpp
+  Movement.cpp
+  Player.cpp
+  RandomPlayer.cpp
+  UserPlayer.cpp
+  Generating Code...
+LINK : fatal error LNK1561: entry point must be defined
