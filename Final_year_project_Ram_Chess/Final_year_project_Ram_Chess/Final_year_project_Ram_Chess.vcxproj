@@ -35,11 +35,8 @@
     <ClInclude Include="Chessboard.h" />
     <ClInclude Include="Coord.h" />
     <ClInclude Include="Movement.h" />
-    <ClInclude Include="Pawn.h" />
-    <ClInclude Include="Piece.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="RandomPlayer.h" />
-    <ClInclude Include="State.h" />
     <ClInclude Include="UserPlayer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
