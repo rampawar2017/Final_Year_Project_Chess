@@ -20,7 +20,7 @@ int main()
 
 	//Specify player type for each of the players.
 	//Player* whitePlayer = &RandomPlayer();
-	Player* whitePlayer = &AiPlayer();
+	Player* whitePlayer = &UserPlayer();
 	Player* blackPlayer = &AiPlayer();
 
 	//Play the game.
