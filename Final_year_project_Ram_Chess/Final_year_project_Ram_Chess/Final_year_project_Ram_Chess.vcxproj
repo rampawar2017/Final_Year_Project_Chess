@@ -39,6 +39,9 @@
     <ClInclude Include="RandomPlayer.h" />
     <ClInclude Include="UserPlayer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{427451B2-2375-47B1-A40C-1F714ACCE092}</ProjectGuid>

@@ -19,9 +19,10 @@ int main()
 	Chessboard chessboard;
 
 	//Specify player type for each of the players.
-	//Player* whitePlayer = &RandomPlayer();
-	Player* whitePlayer = &UserPlayer();
-	Player* blackPlayer = &AiPlayer();
+	Player* whitePlayer = &RandomPlayer(); 
+	Player* blackPlayer = &UserPlayer();
+	//Player* whitePlayer = &UserPlayer();
+	//Player* blackPlayer = &AiPlayer();
 
 	//Play the game.
 	const int maxTurnCount = 100;

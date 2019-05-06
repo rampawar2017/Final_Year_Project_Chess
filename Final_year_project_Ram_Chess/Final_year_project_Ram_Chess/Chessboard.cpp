@@ -64,7 +64,6 @@ void Chessboard::Init()
 			cells[x][y] = Empty;
 		}
 	}
-
 	Cell whiteRow[] = { WhiteRook, WhiteKnight, WhiteBishop, WhiteQueen, WhiteKing, WhiteBishop, WhiteKnight, WhiteRook };
 	Cell blackRow[] = { BlackRook, BlackKnight, BlackBishop, BlackQueen, BlackKing, BlackBishop, BlackKnight, BlackRook };
 	for (int x = 0; x < size; ++x)
@@ -278,7 +277,7 @@ vector<Coord> Chessboard::GetMoves(const Coord& srcCoord) const
 			Direction{-1,0}, Direction{1,0}, Direction{0,-1}, Direction{0,1}
 		};
 
-		//By default a figure can move up to 7 cells.
+		//By default a piece can move up to 7 cells.
 		int maxDistance = 7;
 		const vector<Direction>* directions;
 		switch (cell) {
