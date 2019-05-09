@@ -19,8 +19,17 @@ int main()
 	Chessboard chessboard;
 
 	//Specify player type for each of the players.
-	/*Player* whitePlayer = &RandomPlayer(); 
-	Player* blackPlayer = &UserPlayer();*/
+
+	//For RandomPlayer Vs UserPlayer
+		//Player* whitePlayer = &RandomPlayer(); 
+		//Player* blackPlayer = &UserPlayer();
+
+	//AiPlayer Vs AiPlayer
+		//Player* whitePlayer = &AiPlayer();
+		//Player* blackPlayer = &AiPlayer();
+
+
+	//For UserPlayer Vs AiPlayer
 	Player* whitePlayer = &UserPlayer();
 	Player* blackPlayer = &AiPlayer();
 
