@@ -30,7 +30,7 @@ int main()
 
 
 	//For UserPlayer Vs AiPlayer
-	Player* whitePlayer = &UserPlayer();
+	Player* whitePlayer = &AiPlayer();
 	Player* blackPlayer = &AiPlayer();
 
 	//Play the game.
