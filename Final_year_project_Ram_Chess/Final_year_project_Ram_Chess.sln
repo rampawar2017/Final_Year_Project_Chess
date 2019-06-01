@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Final_year_project_Ram_Chess", "Final_year_project_Ram_Chess\Final_year_project_Ram_Chess.vcxproj", "{427451B2-2375-47B1-A40C-1F714ACCE092}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest1", "UnitTest1\UnitTest1.vcxproj", "{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{427451B2-2375-47B1-A40C-1F714ACCE092}.Release|x64.Build.0 = Release|x64
 		{427451B2-2375-47B1-A40C-1F714ACCE092}.Release|x86.ActiveCfg = Release|Win32
 		{427451B2-2375-47B1-A40C-1F714ACCE092}.Release|x86.Build.0 = Release|Win32
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Debug|x64.ActiveCfg = Debug|x64
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Debug|x64.Build.0 = Debug|x64
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Debug|x86.Build.0 = Debug|Win32
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Release|x64.ActiveCfg = Release|x64
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Release|x64.Build.0 = Release|x64
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Release|x86.ActiveCfg = Release|Win32
+		{B9DBC6DA-FC05-4B08-9792-E6487AB8B90A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
